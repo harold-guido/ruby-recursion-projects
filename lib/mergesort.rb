@@ -24,5 +24,3 @@ def merge(array_one, array_two, sorted_array = [])
       : (sorted_array = sorted_array + array_one)
     end
 end
-
-p merge_sort([5, 5, 8, 3, 2, 6, 6, 9 , 7])
