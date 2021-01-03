@@ -1,6 +1,4 @@
-#RECURSIVE MERGE SORT METHOD
 def merge_sort(array)
-  #RETURN IF LESS THAN TWO ITEMS
   if array.to_a.length < 2 then
     return array
   else
@@ -9,7 +7,7 @@ def merge_sort(array)
   #SORT RIGHT SIDE
     array_two = merge_sort(array)
   #MERGE THE TWO SIDES    
-    merged_array = merge(array_one, array_two)
+    merge(array_one, array_two)
   end
 end
 
